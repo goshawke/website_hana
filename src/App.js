@@ -10,6 +10,7 @@ import Footer from './components/Footer.js';
 import AboutMe from './components/AboutMe.js';
 import Contact from './components/Contact.js';
 import Resume from './components/Resume.js';
+import Services from './components/Services.js';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="AboutMe" element={ <AboutMe/> } />
           <Route path="Contact" element={ <Contact /> } />
           <Route path="Resume" element={ <Resume/> } />
+          <Route path="Services" element={ <Services/> } />
         </Routes>
       </div>
       <Footer/>
